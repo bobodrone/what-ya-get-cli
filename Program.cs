@@ -33,9 +33,9 @@ try
             new Markup($"[red]{item.Nth}[/] [white]{item.Unit}[/]").Justify(Justify.Center),
             new Markup($"[yellow]{item.Name}[/]").Justify(Justify.Center),
             new Text(""),
-            RenderQr(qrCodeData.ModuleMatrix),
-            new Text(""),
-            new Markup($"[yellow]Video: {item.Art}[/]").Justify(Justify.Center)
+            RenderQr(qrCodeData.ModuleMatrix)
+//            new Text(""),
+//            new Markup($"[yellow]Video: {item.Art}[/]").Justify(Justify.Center)
         );
 
         var left = new Panel(rows)
