@@ -1,6 +1,6 @@
 # what-ya-get-cli
 
-You can read more about the main project here: (github.com/bobodrone/what-ya-get)[https://github.com/bobodrone/what-ya-get]
+You can read more about the main project here: [github.com/bobodrone/what-ya-get](https://github.com/bobodrone/what-ya-get)
 
 A tiny .NET console app that picks a random item from the [Pennache](https://pennache.art) items API and prints it in the terminal as a framed card with a scannable QR code linking to that item.
 
